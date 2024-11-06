@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone the Code') {
             steps {
-                git credentialsId: 'git-creds', url: 'https://github.com/KastroVKiran/Netflix-Pipeline-Project.git'
+                git credentialsId: 'git-creds', url: 'git 'https://github.com/srinath-1997/Netflix-Pipeline-Project.git''
             }
         }
     }
